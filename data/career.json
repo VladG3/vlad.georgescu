@@ -1,0 +1,60 @@
+{
+  "player": {
+    "name": "Vlad-Teodor Georgescu",
+    "position": "Point Guard / Playmaker",
+    "height_cm": 186,
+    "weight_kg": 78,
+    "birthDate": "2000-07-12",
+    "nationality": "Romania",
+    "email": "vladgeorgescu123@gmail.com",
+    "phone": "+40 757 330 375"
+  },
+  "careerHistory": [
+    {
+      "season": "2025-26",
+      "club": "CSU SCM Brașov",
+      "league": "Liga I",
+      "note": "Most recent club. All-Liga I selection.",
+      "stats": {
+        "PPG": 22.2,
+        "RPG": 8.3,
+        "APG": 6.0,
+        "SPG": 1.6
+      }
+    },
+    {
+      "season": "2024-25",
+      "club": "CSM 2007 Focșani",
+      "league": "Liga I",
+      "note": "Joined a team recently relegated, to help it return to the top flight."
+    },
+    {
+      "season": "2023-24",
+      "club": "CSM Corona Brașov",
+      "league": "Liga I",
+      "note": "First professional contract."
+    },
+    {
+      "season": "2019-23",
+      "club": "BC CSU Sibiu",
+      "league": "Liga I",
+      "note": "First steps at pro level"
+    }
+  ],
+  "skills": [
+    "Quick & fast",
+    "Defensive ability",
+    "Court communication",
+    "Work ethic",
+    "Playmaker / dynamic guard"
+  ],
+  "honors": [
+    "3× All-Romanian Liga I selection (2020, 2023, 2026)"
+  ],
+  "languages": ["Romanian - Native", "English"],
+  "representation": {
+    "agency": "Heinrich Sports Management",
+    "country": "Austria",
+    "fibaLicense": "2016504733"
+  }
+}
