@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vlad Georgescu - Basketball Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <div class="nav-name">Vlad Georgescu</div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+            <div class="nav-links" id="navLinks">
+                <a href="#profile">Profile</a>
+                <a href="#stats">Stats</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+                <a href="CV.pdf" download>Download CV</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="hero-inner">
+            <div class="status-row">
+                <span class="eyebrow">Basketball Player</span>
+                <span class="status-badge">Free Agent</span>
+            </div>
+            <h1>Vlad-Teodor Georgescu</h1>
+            <p class="tagline">Point Guard / Playmaker</p>
+            
+            <dl class="vitals">
+                <div class="vital"><dt>Height</dt> <dd>186 cm</dd></div>
+                <div class="vital"><dt>Weight</dt> <dd>78 kg</dd></div>
+                <div class="vital"><dt>Born</dt> <dd>12.07.2000</dd></div>
+                <div class="vital"><dt>Nationality</dt> <dd>Romania</dd></div>
+            </dl>
+
+            <div class="hero-cta">
+                <a href="CV.pdf" class="btn btn-primary" download>Download CV</a>
+                <a href="#contact" class="btn btn-secondary">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="boxscore">
+        <div class="boxscore-inner">
+            <p class="boxscore-label">2025–26 Season Stats</p>
+            <div class="boxscore-row">
+                <div class="boxscore-cell">
+                    <span class="boxscore-num">22.2</span>
+                    <span>PPG</span>
+                </div>
+                <div class="boxscore-cell">
+                    <span class="boxscore-num">8.3</span>
+                    <span>RPG</span>
+                </div>
+                <div class="boxscore-cell">
+                    <span class="boxscore-num">6.0</span>
+                    <span>APG</span>
+                </div>
+                <div class="boxscore-cell">
+                    <span class="boxscore-num">1.6</span>
+                    <span>SPG</span>
+                </div>
+            </div>
+            <div class="awards">
+                <strong>✓ 3× All-Romanian Liga I selection</strong> (2020, 2023, 2026)
+            </div>
+        </div>
+    </div>
+
+    <main id="profile">
+        <section class="section">
+            <p class="section-label">About</p>
+            <p>Started playing basketball in 2011 with a small team in his hometown, and grew to love and perfect the game from there. In 2014 he moved to a more competitive team to play tougher games at junior-championship level, then in 2016 moved to the best team in town to keep improving. In 2019 he stepped up to senior level, working alongside foreign players and coaches — American, Serbian, Spanish, Lithuanian — and encountered different philosophies on the game of basketball along the way. He loves a challenge and doesn't back down from work.</p>
+        </section>
+
+        <section class="section" id="stats">
+            <p class="section-label">Career History</p>
+            <div class="season-table-wrap">
+                <table class="season-table">
+                    <thead>
+                        <tr>
+                            <th>Season</th>
+                            <th>Club</th>
+                            <th>League</th>
+                            <th>Note</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="season-cell">2025–26</td>
+                            <td class="club-cell">CSU SCM Brașov</td>
+                            <td>Liga I</td>
+                            <td class="note-cell">Most recent club. All-Liga I selection.</td>
+                        </tr>
+                        <tr>
+                            <td class="season-cell">2024–25</td>
+                            <td class="club-cell">CSM 2007 Focșani</td>
+                            <td>Liga I</td>
+                            <td class="note-cell">Joined a recently relegated team to help return to the top flight.</td>
+                        </tr>
+                        <tr>
+                            <td class="season-cell">2023–24</td>
+                            <td class="club-cell">CSM Corona Brașov</td>
+                            <td>Liga I</td>
+                            <td class="note-cell">First professional contract.</td>
+                        </tr>
+                        <tr>
+                            <td class="season-cell">2019–23</td>
+                            <td class="club-cell">BC CSU Sibiu</td>
+                            <td>Liga I</td>
+                            <td class="note-cell">First steps at pro level under international coaches.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <p class="section-label">Skills</p>
+            <ul class="tag-list">
+                <li>Quick & fast</li>
+                <li>Defensive ability</li>
+                <li>Court communication</li>
+                <li>Work ethic</li>
+                <li>Playmaker</li>
+                <li>Dynamic guard</li>
+            </ul>
+        </section>
+
+        <section class="section" id="contact">
+            <p class="section-label">Contact & Representation</p>
+            <div class="contact-grid">
+                <div>📧 <a href="mailto:vladgeorgescu123@gmail.com">vladgeorgescu123@gmail.com</a></div>
+                <div>📱 <a href="tel:+40757330375">+40 757 330 375</a></div>
+                <div>📍 Brașov, România</div>
+            </div>
+            <p class="contact-note"><strong>Represented by:</strong> Heinrich Sports Management (Austria) — FIBA Agent Licence 2016504733</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Vlad-Teodor Georgescu. Powered by GitHub Pages.</p>
+    </footer>
+
+    <script src="nav.js"></script>
+</body>
+</html>
